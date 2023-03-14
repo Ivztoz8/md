@@ -10,21 +10,21 @@ const mercury = {
 const venus = {
     speed: 0.0022,
     theta: Math.random() * Math.PI,
-    radius: 180,
+    radius: 130,
     el: document.querySelector('.venus')
 }
 
 const earth = {
     speed: 0.002,
     theta: Math.random() * Math.PI,
-    radius: 260,
+    radius: 240,
     el: document.querySelector('.earth')
 }
 
 const moonEarth = {
     speed: 0.002,
     theta: Math.random() * Math.PI,
-    radius: 260,
+    radius: 280,
     el: document.querySelector('.moonEarth')
 }
 
@@ -32,49 +32,49 @@ const moonEarth = {
 const mars = {
     speed: 0.0018,
     theta: Math.random() * Math.PI,
-    radius: 340,
+    radius: 310,
     el: document.querySelector('.mars')
 }
 
 const jupiter = {
     speed: 0.0016,
     theta: Math.random() * Math.PI,
-    radius: 420,
+    radius: 340,
     el: document.querySelector('.jupiter')
 }
 
 const saturn = {
     speed: 0.0014,
     theta: Math.random() * Math.PI,
-    radius: 500,
+    radius: 380,
     el: document.querySelector('.saturn')
 }
 
 const uranus = {
     speed: 0.0012,
     theta: Math.random() * Math.PI,
-    radius: 600,
+    radius: 410,
     el: document.querySelector('.uranus')
 }
 
 const neptune = {
     speed: 0.0010,
     theta: Math.random() * Math.PI,
-    radius: 680,
+    radius: 440,
     el: document.querySelector('.neptune')
 }
 
 const pluto = {
     speed: 0.0008,
     theta: Math.random() * Math.PI,
-    radius: 760,
+    radius: 480,
     el: document.querySelector('.pluto')
 }
 
 const nibiru = {
     speed: 0.0004,
     theta: Math.PI,
-    radius: 840,
+    radius: 510,
     el: document.querySelector('.nibiru')
 }
 
